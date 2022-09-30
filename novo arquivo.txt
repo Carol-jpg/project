@@ -1,0 +1,49 @@
+Você conhece ou já utilizou algum serviço de versionamento de código?
+- Não
+
+Explique com suas palavras o que é versionamento de código.
+- O versionamento é um histórico que contém as mudanças de diferentes versões de um pojeto.
+
+Explique quais são, na sua opinião, as principais vantagens de versionar os códigos que você está desenvolvendo.
+- Melhor gegenciamento das alterações feitas;
+- Trabalho em quipe;
+- Poupa tempo e trabalho ao tentar localizar uma alteração com falha.
+
+Como utilizar o versionamento de código evita que você perca seus códigos caso o seu computador apresente problemas?
+- Os softwares de controle de versão em geral possuem recursos para evitar invasões de agentes infecciosos nos arquivos, 
+normalmente os código versionados ficam em serviços hospedados na web que nos garantem que eles não serão perdidos.
+
+Explique com suas palavras os principais comandos do Git.
+- Git Branch: Lista, cria ou remove branches do repositório local ou remoto.
+Branches do repositório local: Para criar uma branch local, utilzamos o comanddo git branch seguido do nome da branch.
+Branches do repositório remoto: Não existe um comando específico para isto mas pode ser feito criando uma branch local e 
+utilizando o comando push para que uma replica desta branch seja criada no repositório remoto.
+
+- Git Init: O comando git init inicializa o Git no diretório atual, criando a branch master e permitindo executar os demais comandos do Git.
+Este comando só é executado quando estamos iniciando um novo projeto para o qual ainda não existe um repositório remoto.
+
+- Git Clone: Conforme o próprio nome diz, cria um novo diretório no local onde é executado e clona o código da branch escolhida de um repositório
+remoto para dentro dele.
+
+- Git Add: É o comando que utilizamos para preparar arquivos que devem ser adicionados ao nosso próximo commit. Com ele é possível selecionar,
+entre os arquivos alterados, quais arquivos você deseja que estejam vinculados ao seu próximo commit.
+
+- Git Status: É o comando responsável por nos informar quais são os arquivos com alterações pendentes para serem adicionados a um commit.
+
+- Git Commit: Este comando é o que de fato cria os famosos commits. A ideia é criar um “checkpoint” do estado corrente do código da branch atual,
+adicionando uma mensagem para facilitar sua identificação.Os arquivos vinculados a este “checkpoint” criado pelo comando git commit são somente os
+que foram adicionados como staged pelo comando git add.
+
+- Git Log: Mostra o histórico de commits da branch atual. Acima de cada commit do log teremos um hash que funciona como um código identificador,
+além das informações de data, hora e autor do commit.
+
+- Git Push: É responsável por “empurrar” nossas alterações para o repositório remoto. Se você estiver versionando um projeto no Github por exemplo,
+é o git push que irá enviar seus commits e arquivos modificados localmente para ele.
+
+- Git Pull: Ao contrário do git push, esse comando busca no repositório remoto versões do código que sejam mais atuais do que as que temos em nossa
+máquina e atualiza nossos arquivos.
+
+- Git Checkout: Tem como função primária nos permitir navegar entre branches e commits. Você pode acessar uma versão de código diferente em outra
+branch ou navegar para um commit de um ano atrás por exemplo.
+
+- Git Merge: Este comando nos permite mesclar o conteúdo de uma branch em uma segunda branch.
